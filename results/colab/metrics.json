@@ -1,0 +1,105 @@
+{
+ "Qwen2.5-VL-3B-Instruct_base_stenosis_test_n300": {
+  "images": 300,
+  "parse_rate": 1.0,
+  "gt_stenoses": 386,
+  "claims_per_image": 1.45,
+  "images_without_claims": 0.0,
+  "point_precision": 0.213,
+  "random_point_precision_baseline": 0.055,
+  "stenosis_recall": 0.236,
+  "stenosis_point_copied_from_artery": 1.0,
+  "severity_counts": {
+   "severe": 310,
+   "mild": 126
+  },
+  "mean_conf_hit": 0.87,
+  "mean_conf_miss": 0.839
+ },
+ "Qwen2.5-VL-3B-Instruct_base_syntax_test_n300": {
+  "images": 300,
+  "parse_rate": 1.0,
+  "side_accuracy": 0.0,
+  "side_unknown_rate": 1.0,
+  "side_majority_baseline": 0.667,
+  "artery_P_R_F1": [
+   0.54,
+   0.43,
+   0.479
+  ],
+  "artery_baseline_LM_LAD_P_R_F1": [
+   0.638,
+   0.636,
+   0.637
+  ],
+  "artery_claims_per_image": 1.6,
+  "cross_system_claim_rate": 0.315,
+  "point_on_any_vessel_rate": 0.223,
+  "random_point_on_vessel_baseline": 0.078,
+  "point_on_correct_artery_rate": 0.131,
+  "supported_claim_rate": 0.071
+ },
+ "Qwen2.5-VL-3B-Instruct_rag_stenosis_test_n300": {
+  "images": 300,
+  "parse_rate": 1.0,
+  "gt_stenoses": 386,
+  "claims_per_image": 0.75,
+  "images_without_claims": 0.327,
+  "point_precision": 0.143,
+  "random_point_precision_baseline": 0.055,
+  "stenosis_recall": 0.078,
+  "stenosis_point_copied_from_artery": 0.955,
+  "severity_counts": {
+   "severe": 186,
+   "mild": 38
+  },
+  "mean_conf_hit": 0.884,
+  "mean_conf_miss": 0.891
+ },
+ "Qwen2.5-VL-3B-Instruct_rag_syntax_test_n300": {
+  "images": 300,
+  "parse_rate": 1.0,
+  "side_accuracy": 0.637,
+  "side_unknown_rate": 0.0,
+  "side_majority_baseline": 0.667,
+  "artery_P_R_F1": [
+   0.566,
+   0.666,
+   0.612
+  ],
+  "artery_baseline_LM_LAD_P_R_F1": [
+   0.638,
+   0.636,
+   0.637
+  ],
+  "artery_claims_per_image": 2.36,
+  "cross_system_claim_rate": 0.314,
+  "point_on_any_vessel_rate": 0.162,
+  "random_point_on_vessel_baseline": 0.078,
+  "point_on_correct_artery_rate": 0.082,
+  "supported_claim_rate": 0.047
+ },
+ "Qwen2.5-VL-7B-Instruct_base_syntax_test_n300": {
+  "images": 300,
+  "parse_rate": 1.0,
+  "side_accuracy": 0.66,
+  "side_unknown_rate": 0.013,
+  "side_majority_baseline": 0.667,
+  "artery_P_R_F1": [
+   0.609,
+   0.689,
+   0.647
+  ],
+  "artery_baseline_LM_LAD_P_R_F1": [
+   0.638,
+   0.636,
+   0.637
+  ],
+  "artery_claims_per_image": 2.27,
+  "cross_system_claim_rate": 0.307,
+  "point_on_any_vessel_rate": 0.294,
+  "random_point_on_vessel_baseline": 0.078,
+  "point_on_correct_artery_rate": 0.149,
+  "supported_claim_rate": 0.091
+ }
+}

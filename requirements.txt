@@ -1,0 +1,9 @@
+torch
+transformers>=4.49
+accelerate
+pycocotools
+rank_bm25
+scipy
+matplotlib
+pillow
+numpy
